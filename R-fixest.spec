@@ -4,7 +4,7 @@
 #
 Name     : R-fixest
 Version  : 0.11.1
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/fixest_0.11.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fixest_0.11.1.tar.gz
 Summary  : Fast Fixed-Effects Estimations
@@ -21,9 +21,6 @@ BuildRequires : R-dreamerr
 BuildRequires : R-numDeriv
 BuildRequires : R-sandwich
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 # fixest: Fast and user-friendly fixed-effects estimation
@@ -49,10 +46,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673455848
+export SOURCE_DATE_EPOCH=1678819219
 
 %install
-export SOURCE_DATE_EPOCH=1673455848
+export SOURCE_DATE_EPOCH=1678819219
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
