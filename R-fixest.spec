@@ -7,7 +7,7 @@
 #
 Name     : R-fixest
 Version  : 0.12.0
-Release  : 17
+Release  : 18
 URL      : https://cran.r-project.org/src/contrib/fixest_0.12.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fixest_0.12.0.tar.gz
 Summary  : Fast Fixed-Effects Estimations
